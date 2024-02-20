@@ -26,7 +26,7 @@ Resources:
           #!/bin/bash -xe
           sudo amazon-linux-extras install -y nginx1
           sudo service nginx start
-      ImageId: ami-087c17d1fe0178315
+      ImageId: ami-01e82af4e524a0aa3
       InstanceType: t3.small
       SecurityGroupIds:
         - !GetAtt SecurityGroupHTTPFromWorld.GroupId

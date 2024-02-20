@@ -29,7 +29,7 @@ Resources:
       ResourceSignal:
         Timeout: PT15M
         Count: 5
-      ImageId: ami-087c17d1fe0178315
+      ImageId: ami-01e82af4e524a0aa3
       InstanceType:
         Ref: InstanceType
       SubnetId:

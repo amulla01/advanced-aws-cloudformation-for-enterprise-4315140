@@ -19,7 +19,7 @@ Parameters:
   AMI:
     Description: a reference to the AMI you want
     Type: AWS::EC2::Image::Id
-    Default: ami-0b0dcb5067f052a63
+    Default: ami-01e82af4e524a0aa3
   InstanceName:
     Description: The Name tag that will get applied to the instance
     Type: String
